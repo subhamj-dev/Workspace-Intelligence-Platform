@@ -1,0 +1,39 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project data
+data/
+*.db
+*.jsonl
+quarantine/
+
+# Reports
+reports/
+*.report.json
+
+# Logs
+*.log
+logs/
+
+# Distribution
+dist/
+build/
+*.egg-info/
