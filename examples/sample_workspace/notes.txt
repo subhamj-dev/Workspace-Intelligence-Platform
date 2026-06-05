@@ -1,0 +1,2 @@
+Sample notes file for testing the Workspace Intelligence Platform.
+This file demonstrates how the scanner collects metadata from text files.

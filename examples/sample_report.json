@@ -1,0 +1,46 @@
+{
+    "report_type": "workspace_health",
+    "generated_at": "2026-06-05T12:00:00Z",
+    "workspace": "~/workspace",
+    "health_score": 78,
+    "metrics": {
+        "total_files": 1250,
+        "total_size_mb": 4520.3,
+        "duplicate_groups": 3,
+        "duplicate_files": 8,
+        "orphaned_files": 7,
+        "large_files": 5
+    },
+    "penalties": {
+        "duplicate_penalty": 15,
+        "orphan_penalty": 14,
+        "large_file_penalty": 5
+    },
+    "file_type_distribution": {
+        "documents": 420,
+        "images": 380,
+        "media": 120,
+        "archives": 45,
+        "code": 200,
+        "other": 85
+    },
+    "largest_files": [
+        {
+            "path": "~/workspace/videos/presentation.mp4",
+            "size_mb": 850.2,
+            "type": "video/mp4"
+        },
+        {
+            "path": "~/workspace/archives/backup.zip",
+            "size_mb": 620.5,
+            "type": "application/zip"
+        }
+    ],
+    "recently_modified": [
+        {
+            "path": "~/workspace/documents/report.pdf",
+            "modified": "2026-06-05T10:30:00Z",
+            "type": "application/pdf"
+        }
+    ]
+}

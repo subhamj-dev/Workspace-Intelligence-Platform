@@ -1,0 +1,39 @@
+{
+    "workspace": {
+        "root": "~/workspace",
+        "exclude_patterns": [
+            "*.tmp",
+            "*.log",
+            "*.bak",
+            "__pycache__",
+            ".git",
+            "node_modules"
+        ],
+        "max_depth": 0,
+        "follow_symlinks": false
+    },
+    "quarantine": {
+        "directory": "quarantine",
+        "retention_days": 30,
+        "auto_delete": false
+    },
+    "hash_algorithm": "sha256",
+    "hash_chunk_size": 8192,
+    "audit_logging": true,
+    "audit_log_file": "audit_log.jsonl",
+    "organizer": {
+        "dry_run": true,
+        "rules_file": "config/organization_rules.json"
+    },
+    "reports": {
+        "output_directory": "reports",
+        "format": "json",
+        "max_largest_files": 50
+    },
+    "health": {
+        "large_file_threshold_mb": 500,
+        "duplicate_penalty_per_group": 5,
+        "orphan_penalty_per_file": 2,
+        "large_file_penalty_per_file": 1
+    }
+}

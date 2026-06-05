@@ -1,0 +1,65 @@
+{
+    "rules": [
+        {
+            "priority": 1,
+            "type": "extension",
+            "extensions": [".pdf"],
+            "destination": "documents"
+        },
+        {
+            "priority": 2,
+            "type": "extension",
+            "extensions": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg"],
+            "destination": "images"
+        },
+        {
+            "priority": 3,
+            "type": "extension",
+            "extensions": [".mp4", ".avi", ".mkv", ".mov", ".wmv"],
+            "destination": "media/videos"
+        },
+        {
+            "priority": 4,
+            "type": "extension",
+            "extensions": [".mp3", ".wav", ".flac", ".aac", ".ogg"],
+            "destination": "media/audio"
+        },
+        {
+            "priority": 5,
+            "type": "extension",
+            "extensions": [".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx"],
+            "destination": "office_documents"
+        },
+        {
+            "priority": 6,
+            "type": "extension",
+            "extensions": [".txt", ".md", ".rst"],
+            "destination": "notes"
+        },
+        {
+            "priority": 7,
+            "type": "extension",
+            "extensions": [".zip", ".tar", ".gz", ".bz2", ".7z", ".rar"],
+            "destination": "archives"
+        },
+        {
+            "priority": 8,
+            "type": "extension",
+            "extensions": [".py", ".js", ".ts", ".java", ".cpp", ".h", ".rs", ".go"],
+            "destination": "code"
+        },
+        {
+            "priority": 9,
+            "type": "extension",
+            "extensions": [".iso", ".img", ".bin"],
+            "destination": "disk_images"
+        },
+        {
+            "priority": 10,
+            "type": "size",
+            "min_size_mb": 100,
+            "destination": "large_files"
+        }
+    ],
+    "default_destination": "miscellaneous"
+}
