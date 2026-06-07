@@ -1,4 +1,5 @@
-Workspace Intelligence Platform
+
+# Workspace Intelligence Platform
 
 ## Overview
 
